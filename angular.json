@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "snippets-puzzes-crazy-shit": {
+    "snippets-puzzles-crazy-shit": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/snippets-puzzes-crazy-shit",
+            "outputPath": "dist/snippets-puzzles-crazy-shit",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "snippets-puzzes-crazy-shit:build"
+            "browserTarget": "snippets-puzzles-crazy-shit:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "snippets-puzzes-crazy-shit:build:production"
+              "browserTarget": "snippets-puzzles-crazy-shit:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "snippets-puzzes-crazy-shit:build"
+            "browserTarget": "snippets-puzzles-crazy-shit:build"
           }
         },
         "test": {
@@ -107,7 +107,7 @@
         }
       }
     },
-    "snippets-puzzes-crazy-shit-e2e": {
+    "snippets-puzzles-crazy-shit-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -116,11 +116,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "snippets-puzzes-crazy-shit:serve"
+            "devServerTarget": "snippets-puzzles-crazy-shit:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "snippets-puzzes-crazy-shit:serve:production"
+              "devServerTarget": "snippets-puzzles-crazy-shit:serve:production"
             }
           }
         },
@@ -136,5 +136,5 @@
       }
     }
   },
-  "defaultProject": "snippets-puzzes-crazy-shit"
+  "defaultProject": "snippets-puzzles-crazy-shit"
 }

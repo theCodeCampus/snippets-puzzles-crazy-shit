@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Welcome to snippets-puzzes-crazy-shit!');
+    expect(page.getTitleText()).toEqual('Welcome to snippets-puzzles-crazy-shit!');
   });
 
   afterEach(async () => {
