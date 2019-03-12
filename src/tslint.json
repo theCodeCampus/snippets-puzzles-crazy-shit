@@ -1,6 +1,7 @@
 {
-    "extends": "../tslint.json",
-    "rules": {
+  "extends": "../tslint.json",
+  "defaultSeverity": "warning",
+  "rules": {
         "directive-selector": [
             true,
             "attribute",

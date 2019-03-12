@@ -3,14 +3,29 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NgxPresentModule } from '@w11k/ngx-present';
+import { TccNgxPresentThemeModule } from '@thecodecampus/ngx-present-theme';
+import { RouterModule } from '@angular/router';
+import { routes } from './app.routes';
+import { slides } from './app.slides';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ...slides,
+  ],
+  entryComponents: [
+    ...slides,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    NgxPresentModule.withSlides(slides),
+    TccNgxPresentThemeModule,
+    // use hash navigation because browsers are blocking via file protocol
+    // due security reasons
+    // see https://github.com/angular/angular/issues/13948
+    RouterModule.forRoot(routes, { useHash: true }),
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
