@@ -6,8 +6,13 @@ import {
   WhyTypeScriptSlide2,
   WhyTypeScriptSlide3,
   WhyTypeScriptSlide4,
-  WhyTypeScriptSlide5
+  WhyTypeScriptSlide5,
+  WhyTypeScriptSlide6,
+  WhyTypeScriptSlide7,
+  WhyTypeScriptSlide8,
+  WhyTypeScriptSlide9
 } from "./slides/intro_typescript";
+import {WebAssembly1, WebAssembly2} from "./slides/webassembly";
 
 export const slides: SlideComponents = [
   intro,
@@ -16,5 +21,11 @@ export const slides: SlideComponents = [
   WhyTypeScriptSlide3,
   WhyTypeScriptSlide4,
   WhyTypeScriptSlide5,
+  WhyTypeScriptSlide6,
+  WhyTypeScriptSlide7,
+  WhyTypeScriptSlide8,
+  WhyTypeScriptSlide9,
+  WebAssembly1,
+  WebAssembly2,
   outro,
 ];
