@@ -71,15 +71,12 @@ export class Smooth3 {
     <tcc-master-regular headline="#SmoothGate">
       <div>
         <ul>
-          <li>
-            Da die neue <code>flatten</code> Methode nicht enumerable ist, wird diese auch nicht nach
-            <code>Elements</code> kopiert
-          </li>
+          <li>Neue <code>flatten</code> Methode ist nicht enumerable</li>
+          <li>Wird nicht nach <code>Elements</code> kopiert</li>
           <li>MooTools geht nicht mehr</li>
         </ul>
-        <img src="assets/images/selberschuld.gif"/>
-
       </div>
+        <img style="text-align: center; width: 40vw"  src="assets/images/selberschuld.gif"/>
     </tcc-master-regular>
   `
 })

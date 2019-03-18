@@ -5,7 +5,7 @@ import {Component} from '@angular/core';
   template: `
     <tcc-master-regular headline="RxJS">
       <div>
-        <h1>Snippet</h1>
+        <h2>Snippet</h2>
       </div>
     </tcc-master-regular>
   `
@@ -37,9 +37,7 @@ sub.subscribe(value => {
   }
 });
 
-sub.subscribe(value => {
-  console.log(value);
-});
+sub.subscribe(value => console.log(value));
 
 sub.next(0);
 `;
