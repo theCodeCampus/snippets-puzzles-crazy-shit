@@ -21,7 +21,7 @@ export class WebAssembly1 {
   template: `
     <tcc-master-regular headline="WebAssembly">
       <div>
-        <h4>Wie erzeugt man WebAssembly code?</h4>
+        <h4>Wie erzeugt man WebAssembly Code?</h4>
         <ul>
           <li>Gängiger Weg: C, C++, Rust</li>
           <li>Aber es geht besser...</li>

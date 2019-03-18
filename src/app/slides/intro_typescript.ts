@@ -122,7 +122,7 @@ export class WhyTypeScriptSlide6 {
             JavaScript kombiniert aber
             <ul>
               <li>dynamische Typisierung</li>
-              <li>schwacher Typisierung</li>
+              <li>schwache Typisierung</li>
             </ul>
         </ul>
       </div>
@@ -134,7 +134,7 @@ export class WhyTypeScriptSlide7 {
 
 @Component({
   template: `
-    <tcc-master-regular headline="TypeScript FTW">
+    <tcc-master-regular headline="TypeScript">
       <div>
         <ul>
           <li>Wir können die Runtime (Browser, NodeJS) nicht fixen...</li>
@@ -153,7 +153,7 @@ export class WhyTypeScriptSlide8 {
 
 @Component({
   template: `
-    <tcc-master-regular headline="TypeScript FTW">
+    <tcc-master-regular headline="TypeScript">
       <div><h3>Demo: JSON Use Case</h3></div>
     </tcc-master-regular>
   `
