@@ -7,12 +7,14 @@ import { smoothSlides } from './slides/smooth';
 import { webAssemblySlides } from './slides/webassembly';
 import { jsSlides } from './slides/javascript';
 import { reactSlides } from './slides/react';
+import { npmSlides } from './slides/npm';
 
 export const slides: SlideComponents = [
   ...intro,
   ...jsSlides,
   ...typescriptSlides,
   ...webAssemblySlides,
+  ...npmSlides,
   ...rxSlides,
   ...smoothSlides,
   ...reactSlides,
