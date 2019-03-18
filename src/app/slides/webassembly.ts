@@ -33,3 +33,7 @@ export class WebAssembly1 {
 export class WebAssembly2 {
 }
 
+export const webAssemblySlides = [
+  WebAssembly1,
+  WebAssembly2,
+];

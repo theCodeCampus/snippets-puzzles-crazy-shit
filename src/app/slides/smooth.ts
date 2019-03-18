@@ -131,3 +131,11 @@ export class Smooth5 {
 export class Smooth6 {
 }
 
+export const smoothSlides = [
+  Smooth1,
+  Smooth2,
+  Smooth3,
+  Smooth4,
+  Smooth5,
+  Smooth6,
+];

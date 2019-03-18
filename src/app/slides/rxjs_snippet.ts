@@ -46,3 +46,7 @@ sub.next(0);
 
 }
 
+export const rxSlides = [
+  RxJS1,
+  RxJS2,
+];

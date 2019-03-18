@@ -1,7 +1,5 @@
 import {Component} from '@angular/core';
 
-// <tcc-code language="typescript" headline="sign_in.po.ts" [code]="testCode"></tcc-code>
-
 @Component({
   template: `
     <tcc-master-regular headline="Warum TypeScript?">
@@ -161,3 +159,14 @@ export class WhyTypeScriptSlide8 {
 export class WhyTypeScriptSlide9 {
 }
 
+export const typescriptSlides = [
+  WhyTypeScriptSlide1,
+  WhyTypeScriptSlide2,
+  WhyTypeScriptSlide3,
+  WhyTypeScriptSlide4,
+  WhyTypeScriptSlide5,
+  WhyTypeScriptSlide6,
+  WhyTypeScriptSlide7,
+  WhyTypeScriptSlide8,
+  WhyTypeScriptSlide9,
+];
