@@ -159,6 +159,22 @@ export class WhyTypeScriptSlide8 {
 export class WhyTypeScriptSlide9 {
 }
 
+@Component({
+  template: `
+    <tcc-master-regular headline="TypeScript">
+      <div>
+        <h3>Download Statisik (NPM weekly)</h3>
+        <ul>
+          <li>Angular: 2,3 Millionen</li>
+          <li>TypeScript: 5,5 Millionen</li>
+        </ul>
+      </div>
+    </tcc-master-regular>
+  `
+})
+export class WhyTypeScriptSlide10 {
+}
+
 export const typescriptSlides = [
   WhyTypeScriptSlide1,
   WhyTypeScriptSlide2,
@@ -169,4 +185,5 @@ export const typescriptSlides = [
   WhyTypeScriptSlide7,
   WhyTypeScriptSlide8,
   WhyTypeScriptSlide9,
+  WhyTypeScriptSlide10,
 ];
