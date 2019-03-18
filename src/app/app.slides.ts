@@ -3,6 +3,7 @@ import {intro} from './intro';
 import {outro} from './outro';
 import {
   WhyTypeScriptSlide1,
+  WhyTypeScriptSlide10,
   WhyTypeScriptSlide2,
   WhyTypeScriptSlide3,
   WhyTypeScriptSlide4,
@@ -27,6 +28,7 @@ export const slides: SlideComponents = [
   WhyTypeScriptSlide7,
   WhyTypeScriptSlide8,
   WhyTypeScriptSlide9,
+  WhyTypeScriptSlide10,
   WebAssembly1,
   WebAssembly2,
   RxJS1,

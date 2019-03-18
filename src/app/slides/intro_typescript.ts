@@ -134,7 +134,7 @@ export class WhyTypeScriptSlide7 {
 
 @Component({
   template: `
-    <tcc-master-regular headline="TypeScript FTW">
+    <tcc-master-regular headline="TypeScript">
       <div>
         <ul>
           <li>Wir können die Runtime (Browser, NodeJS) nicht fixen...</li>
@@ -153,7 +153,7 @@ export class WhyTypeScriptSlide8 {
 
 @Component({
   template: `
-    <tcc-master-regular headline="TypeScript FTW">
+    <tcc-master-regular headline="TypeScript">
       <div><h3>Demo: JSON Use Case</h3></div>
     </tcc-master-regular>
   `
@@ -161,3 +161,18 @@ export class WhyTypeScriptSlide8 {
 export class WhyTypeScriptSlide9 {
 }
 
+@Component({
+  template: `
+    <tcc-master-regular headline="TypeScript">
+      <div>
+        <h3>Download Statisik (NPM weekly)</h3>
+        <ul>
+          <li>Angular: 2,3 Millionen</li>
+          <li>TypeScript: 5,5 Millionen</li>
+        </ul>
+      </div>
+    </tcc-master-regular>
+  `
+})
+export class WhyTypeScriptSlide10 {
+}
