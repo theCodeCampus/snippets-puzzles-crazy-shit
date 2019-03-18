@@ -2,8 +2,8 @@ import {Component} from '@angular/core';
 
 @Component({
   template: `
-    <tcc-master-regular headline="Warum TypeScript?">
-      <img src="assets/images/derschrei1.jpg"/>
+    <tcc-master-regular headline="">
+      <img style="height: 80vh" src="assets/images/derschrei1.jpg"/>
     </tcc-master-regular>
   `
 })
@@ -17,11 +17,11 @@ export class WhyTypeScriptSlide1 {
       <div>
         <h3>Duck Typing</h3>
         <ul>
-          <li>Wikipedia: "...bei dem der Typ eines Objektes nicht durch seine Klasse beschrieben wird, sondern
-            durch das Vorhandensein bestimmter Methoden oder Attribute."
+          <li>Wenn der Typ eines Objektes nicht durch seine Klasse beschrieben wird,<br>
+            sondern durch das Vorhandensein bestimmter Methoden oder Attribute.
           </li>
-          <li>„Wenn ich einen Vogel sehe, der wie eine Ente läuft, wie eine Ente schwimmt und wie eine Ente
-            schnattert, dann nenne ich diesen Vogel eine Ente.“
+          <li>„Wenn ich einen Vogel sehe, der wie eine Ente läuft, wie eine Ente schwimmt<br>
+            und wie eine Ente schnattert, dann nenne ich diesen Vogel eine Ente.“
           </li>
         </ul>
       </div>
@@ -34,7 +34,7 @@ export class WhyTypeScriptSlide2 {
 @Component({
   template: `
     <tcc-master-regular headline="Warum TypeScript?">
-      <img src="assets/images/derschrei1.jpg"/>
+      <img style="height: 80vh" src="assets/images/derschrei1.jpg"/>
     </tcc-master-regular>
   `
 })
@@ -45,10 +45,8 @@ export class WhyTypeScriptSlide3 {
   template: `
     <tcc-master-regular headline="Warum TypeScript?">
       <div>
-        <img src="assets/images/derschrei2.jpg"/>
-        <div>
-          <small>DUCKOMENTA, https://www.duckomenta.de/</small>
-        </div>
+        <img style="height: calc(80vh - 1em)" src="assets/images/derschrei2.jpg"/>
+        <div style="font-size: 0.5em">DUCKOMENTA, <a href="https://www.duckomenta.de" target="_blank">duckomenta.de</a></div>
       </div>
     </tcc-master-regular>
   `

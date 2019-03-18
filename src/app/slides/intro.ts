@@ -30,8 +30,8 @@ export class TitleSlide {}
   template: `
     <tcc-master-regular headline="Die zwei Hansel da vorne">
       <pre markdown>
-        * Roman Roelofsen aka Alpha Geek
-        * Philipp Burgmer, der Web Tech Guru
+        * Roman Roelofsen - a.k.a Alpha Geek
+        * Philipp Burgmer - der Web Tech Guru
         * W11K / theCodeCampus
         * TypeScript, Angular, und alles mögliche
       </pre>
