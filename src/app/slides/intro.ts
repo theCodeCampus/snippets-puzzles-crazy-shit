@@ -26,6 +26,26 @@ import { Component } from '@angular/core';
 export class TitleSlide {}
 
 
+@Component({
+  template: `
+    <tcc-master-regular headline="Die zwei Hansel da vorne">
+      <pre markdown>
+        * Roman Roelofsen aka Alpha Geek
+        * Philipp Burgmer, der Web Tech Guru
+        * W11K / theCodeCampus
+        * TypeScript, Angular, und alles mögliche
+      </pre>
+    </tcc-master-regular>
+    <tcc-speaker-notes *ngxPresentSpeakerNotes>
+      <pre markdown>
+      </pre>
+    </tcc-speaker-notes>
+  `
+})
+export class AboutSlide {}
+
+
 export const intro = [
   TitleSlide,
+  AboutSlide,
 ];
