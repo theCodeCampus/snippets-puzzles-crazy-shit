@@ -12,6 +12,7 @@ import {
   WhyTypeScriptSlide8,
   WhyTypeScriptSlide9
 } from "./slides/intro_typescript";
+import {RxJS1, RxJS2} from "./slides/rxjs_snippet";
 import {WebAssembly1, WebAssembly2} from "./slides/webassembly";
 
 export const slides: SlideComponents = [
@@ -27,5 +28,7 @@ export const slides: SlideComponents = [
   WhyTypeScriptSlide9,
   WebAssembly1,
   WebAssembly2,
+  RxJS1,
+  RxJS2,
   outro,
 ];
