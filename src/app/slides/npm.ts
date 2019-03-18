@@ -78,9 +78,21 @@ npm install foobar@latest
 `;
 }
 
+
+@Component({
+  template: `
+    <div style="background: black; text-align: center">
+      <img src="assets/images/facepalm.webp" style="height: 100vh">
+    </div>
+  `
+})
+export class NpmSlide5
+{}
+
 export const npmSlides = [
   NpmSlide3,
   NpmSlide1,
   NpmSlide2,
   NpmSlide4,
+  NpmSlide5,
 ];

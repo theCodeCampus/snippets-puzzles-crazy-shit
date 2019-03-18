@@ -93,11 +93,7 @@ export class Smooth4 {
           <li>
             2.1. Support Existing Content ("don't break the web")
           </li>
-          <li>Lösung
-            <ul>
-              <li><code>flatten</code> -> <code>smooth</code>?</li>
-            </ul>
-          </li>
+          <li>Lösung: <code>flatten</code> zu <code>smooth</code> umbenennen?</li>
         </ul>
       </div>
     </tcc-master-regular>
@@ -115,11 +111,7 @@ export class Smooth5 {
           <li>
             2.1. Support Existing Content ("don't break the web")
           </li>
-          <li>Lösung
-            <ul>
-              <li><code>flatten</code> -> <code>flat</code></li>
-            </ul>
-          </li>
+          <li>Lösung: <code>flatten</code> zu <code>flat</code> umbenennen</li>
         </ul>
       </div>
     </tcc-master-regular>
