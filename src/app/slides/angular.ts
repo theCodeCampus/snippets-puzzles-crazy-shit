@@ -90,8 +90,57 @@ export class AppModule {}
   `;
 }
 
-export const angularSlides = [
+export const appInitializerSlides = [
   AppInitializerSlide1,
   AppInitializerSlide2,
   AppInitializerSlide3,
+];
+
+
+@Component({
+  template: `
+    <tcc-master-regular headline="WTF">
+      <div>
+        <h2>Angular hat WTF gleich direkt ins Framework eingebaut</h2>
+        <div style="text-align: center">
+          <img src="assets/images/angular-wtf.png" style="height: 50vh">
+        </div>
+      </div>
+    </tcc-master-regular>
+  `
+})
+export class AngularWtfSlide1 {}
+
+
+@Component({
+  template: `
+    <tcc-master-regular headline="WTF">
+      <div style="text-align: center">
+        <h2><a href="https://google.github.io/tracing-framework/" target="_blank">Web Tracing Framework</a></h2>
+        <img src="assets/images/web-tracing-framework.png" style="height: 70vh">
+      </div>
+    </tcc-master-regular>
+  `
+})
+export class AngularWtfSlide2 {}
+
+
+@Component({
+  template: `
+    <tcc-master-regular headline="WTF">
+      <div style="text-align: center">
+        <h2>Angular CLI + Bazel</h2>
+        <img src="assets/images/bazel-performance.png" style="height: 65vh">
+      </div>
+    </tcc-master-regular>
+  `
+})
+export class AngularWtfSlide3 {}
+
+
+
+export const wtfSlides = [
+  AngularWtfSlide1,
+  AngularWtfSlide2,
+  AngularWtfSlide3,
 ];
