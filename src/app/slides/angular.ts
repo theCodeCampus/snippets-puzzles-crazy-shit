@@ -26,14 +26,7 @@ export class AppInitializerSlide1 {
 @Component({
   template: `
     <tcc-master-regular headline="Splash Screen">
-      <pre markdown>
-        * Multi-Provider mit Token <code>APP_INITIALIZER</code>
-        * Erwartet eine Funktion, die ein Promise liefert
-        * Funktionen mit Dependencies können nur über <code>useFactory</code> bereitgestellt werden
-      </pre>
-      <div>
-         <tcc-code language="typescript" [code]="appInitializer"></tcc-code>
-      </div>
+       <tcc-code language="typescript" [code]="appInitializer"></tcc-code>
     </tcc-master-regular>
   `
 })
