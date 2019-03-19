@@ -4,7 +4,7 @@ import {Component} from '@angular/core';
 @Component({
   template: `
     <tcc-master-regular headline="#SmoothGate">
-      <div>
+      <div style="text-align: center">
         <h3>wetteronline.de wird berühmt</h3>
         <h4>(zumindest in Mozilla's Bugzilla)</h4>
       </div>

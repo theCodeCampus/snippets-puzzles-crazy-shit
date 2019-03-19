@@ -46,7 +46,7 @@ export class NpmSlide2 {
   `
 })
 export class NpmSlide3 {
-  install = `npm install foobar@lastest`;
+  install = `npm install foobar@latest`;
   packageJson = `
 {
   "dependencies": {
@@ -86,8 +86,7 @@ npm install foobar@latest
     </div>
   `
 })
-export class NpmSlide5
-{}
+export class NpmSlide5 {}
 
 export const npmSlides = [
   NpmSlide3,

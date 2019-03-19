@@ -1,19 +1,5 @@
 import {Component} from '@angular/core';
 
-
-@Component({
-  template: `
-    <tcc-master-regular headline="RxJS">
-      <div>
-        <h2>Snippet</h2>
-      </div>
-    </tcc-master-regular>
-  `
-})
-export class RxJS1 {
-
-}
-
 @Component({
   template: `
     <tcc-master-regular headline="RxJS">
@@ -45,6 +31,5 @@ sub.next(0);
 }
 
 export const rxSlides = [
-  RxJS1,
   RxJS2,
 ];
