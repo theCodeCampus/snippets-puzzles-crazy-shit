@@ -3,6 +3,16 @@ import {Component} from '@angular/core';
 @Component({
   template: `
     <tcc-master-regular headline="">
+      <h3>Ein Bild sagt mehr als tausend Worte...</h3>
+    </tcc-master-regular>
+  `
+})
+export class WhyTypeScriptSlide0 {
+}
+
+@Component({
+  template: `
+    <tcc-master-regular headline="">
       <img style="height: 80vh" src="assets/images/derschrei1.jpg"/>
     </tcc-master-regular>
   `
@@ -174,6 +184,7 @@ export class WhyTypeScriptSlide10 {
 }
 
 export const typescriptSlides = [
+  WhyTypeScriptSlide0,
   WhyTypeScriptSlide1,
   WhyTypeScriptSlide2,
   WhyTypeScriptSlide3,
