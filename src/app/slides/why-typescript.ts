@@ -41,29 +41,6 @@ export class WhyTypeScriptSlide1 {
 export class WhyTypeScriptSlide2 {
 }
 
-@Component({
-  template: `
-    <tcc-master-regular headline="Warum TypeScript?">
-      <img style="height: 80vh" src="assets/images/derschrei1.jpg"/>
-    </tcc-master-regular>
-  `
-})
-export class WhyTypeScriptSlide3 {
-}
-
-@Component({
-  template: `
-    <tcc-master-regular headline="Warum TypeScript?">
-      <div>
-        <img style="height: calc(80vh - 1em)" src="assets/images/derschrei2.jpg"/>
-        <div style="font-size: 0.5em">DUCKOMENTA, <a href="https://www.duckomenta.de" target="_blank">duckomenta.de</a></div>
-      </div>
-    </tcc-master-regular>
-  `
-})
-export class WhyTypeScriptSlide4 {
-}
-
 
 @Component({
   template: `
@@ -187,8 +164,6 @@ export const typescriptSlides = [
   WhyTypeScriptSlide0,
   WhyTypeScriptSlide1,
   WhyTypeScriptSlide2,
-  WhyTypeScriptSlide3,
-  WhyTypeScriptSlide4,
   WhyTypeScriptSlide5,
   WhyTypeScriptSlide6,
   WhyTypeScriptSlide7,
