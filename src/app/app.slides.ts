@@ -9,6 +9,7 @@ import { jsSlides } from './slides/javascript';
 import { reactSlides } from './slides/react';
 import { npmSlides } from './slides/npm';
 import { typeInferenceSlides } from './slides/type-inferencing';
+import { angularSlides } from './slides/angular';
 
 export const slides: SlideComponents = [
   ...intro,
@@ -17,6 +18,7 @@ export const slides: SlideComponents = [
   ...webAssemblySlides,
   ...npmSlides,
   ...rxSlides,
+  ...angularSlides,
   ...smoothSlides,
   ...reactSlides,
   ...typeInferenceSlides,
