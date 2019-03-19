@@ -14,10 +14,16 @@ import { Component } from '@angular/core';
   
       <ng-container title>
         Snippets & Puzzles<br>
-        Crazy Shit moderner Frontend-Entwicklung
+        <small>Crazy Shit moderner Frontend-Entwicklung</small>
       </ng-container>
   
       <ng-container bottom>
+        <div style="margin-top: 4em">
+          <img src="assets/images/logos/html-days.png">
+          <img src="assets/images/logos/angular-days.png" style="margin-left: 2em">
+          <img src="assets/images/logos/js-days.png" style="margin-left: 2em">
+          <img src="assets/images/logos/react-days.png" style="margin-left: 2em">
+        </div>
       </ng-container>
   
     </tcc-master-title>
