@@ -23,7 +23,7 @@ const foo = 1;
 export class Slide2 {
   code2 = `
 function getData() {
-  Math.random() >= 0.5 ? 42 : undefined;
+  return Math.random() >= 0.5 ? 42 : undefined;
 }
 
 const data = getDate(); // number | undefined
