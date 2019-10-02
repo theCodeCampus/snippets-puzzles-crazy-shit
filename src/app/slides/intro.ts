@@ -19,10 +19,10 @@ import { Component } from '@angular/core';
   
       <ng-container bottom>
         <div style="margin-top: 4em">
-          <img src="assets/images/logos/html-days.png">
-          <img src="assets/images/logos/angular-days.png" style="margin-left: 2em">
-          <img src="assets/images/logos/js-days.png" style="margin-left: 2em">
-          <img src="assets/images/logos/react-days.png" style="margin-left: 2em">
+          <img src="assets/images/logos/JSD_Logo_weiss.png" style="margin-left: 2em">
+          <img src="assets/images/logos/HCD_Logo_weiss.png" style="margin-left: 2em">
+          <img src="assets/images/logos/AD_Logo_weiss.png" style="margin-left: 2em">
+          <img src="assets/images/logos/RD_Logo_weiss.png" style="margin-left: 2em">
         </div>
       </ng-container>
   
@@ -34,10 +34,9 @@ export class TitleSlide {}
 
 @Component({
   template: `
-    <tcc-master-regular headline="Die zwei Hansel da vorne">
+    <tcc-master-regular headline="Über mich">
       <pre markdown>
         * Roman Roelofsen - a.k.a Alpha Geek
-        * Philipp Burgmer - der Web Tech Guru
         * W11K / theCodeCampus
         * TypeScript, Angular, und alles mögliche
       </pre>

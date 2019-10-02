@@ -13,17 +13,26 @@ export class WhyTypeScriptSlide0 {
 @Component({
   template: `
     <tcc-master-regular headline="">
+      <img style="height: 80vh" src="assets/images/jsgoodparts.jpg"/>
+    </tcc-master-regular>
+  `
+})
+export class WhyTypeScriptSlide1a {
+}
+
+@Component({
+  template: `
+    <tcc-master-regular headline="">
       <img style="height: 80vh" src="assets/images/derschrei1.jpg"/>
     </tcc-master-regular>
   `
 })
-export class WhyTypeScriptSlide1 {
+export class WhyTypeScriptSlide1b {
 }
-
 
 @Component({
   template: `
-    <tcc-master-regular headline="Warum TypeScript?">
+    <tcc-master-regular headline="Was ist das Problem bei JavaScript?">
       <div>
         <h3>Duck Typing</h3>
         <ul>
@@ -41,6 +50,18 @@ export class WhyTypeScriptSlide1 {
 export class WhyTypeScriptSlide2 {
 }
 
+@Component({
+  template: `
+    <tcc-master-regular headline="Duck Typing">
+      <div>
+        <img style="height: calc(80vh - 1em)" src="assets/images/derschrei2.jpg"/>
+        <div style="font-size: 1.0em">DUCKOMENTA, <a href="https://www.duckomenta.de" target="_blank">duckomenta.de</a></div>
+      </div>
+    </tcc-master-regular>
+  `
+})
+export class WhyTypeScriptSlide2b {
+}
 
 @Component({
   template: `
@@ -150,8 +171,8 @@ export class WhyTypeScriptSlide9 {
       <div>
         <h3>Download Statisik (NPM weekly)</h3>
         <ul>
-          <li>Angular: 2,3 Millionen</li>
-          <li>TypeScript: 5,5 Millionen</li>
+          <li>Angular: 1,3 Millionen</li>
+          <li>TypeScript: 7,2 Millionen</li>
         </ul>
       </div>
     </tcc-master-regular>
@@ -162,8 +183,10 @@ export class WhyTypeScriptSlide10 {
 
 export const typescriptSlides = [
   WhyTypeScriptSlide0,
-  WhyTypeScriptSlide1,
+  WhyTypeScriptSlide1a,
+  WhyTypeScriptSlide1b,
   WhyTypeScriptSlide2,
+  WhyTypeScriptSlide2b,
   WhyTypeScriptSlide5,
   WhyTypeScriptSlide6,
   WhyTypeScriptSlide7,
