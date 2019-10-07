@@ -3,7 +3,7 @@ import {Component} from '@angular/core';
 @Component({
   template: `
     <tcc-master-regular headline="">
-      <h3>Ein Bild sagt mehr als tausend Worte...</h3>
+      <h3>JavaScript: Ein Bild sagt mehr als tausend Worte...</h3>
     </tcc-master-regular>
   `
 })
@@ -96,10 +96,10 @@ export class WhyTypeScriptSlide5 {
             Wie streng sind die Typen?
             <ul>
               <li class="fragment"><b>schwache</b> Typisierung:<br>
-                <code>s = "Zahl " + 5;</code>
+                <code>s = "Text " - 5; // NaN</code>
               </li>
               <li class="fragment"><b>starke</b> Typisierung: <br>
-                <code>s = "Zahl " + str(5)</code>
+                <code>s = "Text " + str(5)</code>
               </li>
             </ul>
           </li>
@@ -117,7 +117,7 @@ export class WhyTypeScriptSlide6 {
       <div>
         <ul>
           <li>
-            Dynamische Typisierung nicht grundsätzlich ein Problem
+            Duck Typing nicht grundsätzlich ein Problem
             <ul>
               <li>Python, Ruby, ...</li>
             </ul>
@@ -187,9 +187,9 @@ export const typescriptSlides = [
   WhyTypeScriptSlide1b,
   WhyTypeScriptSlide2,
   WhyTypeScriptSlide2b,
+  WhyTypeScriptSlide7,
   WhyTypeScriptSlide5,
   WhyTypeScriptSlide6,
-  WhyTypeScriptSlide7,
   WhyTypeScriptSlide8,
   WhyTypeScriptSlide9,
   WhyTypeScriptSlide10,

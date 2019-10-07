@@ -1,15 +1,15 @@
-import { SlideComponents } from '@w11k/ngx-present';
-import { intro } from './slides/intro';
-import { outro } from './slides/outro';
-import { typescriptSlides } from './slides/why-typescript';
-import { rxSlides } from './slides/rxjs';
-import { smoothSlides } from './slides/smooth';
-import { webAssemblySlides } from './slides/webassembly';
-import { jsSlides } from './slides/javascript';
-import { reactSlides } from './slides/react';
-import { npmSlides } from './slides/npm';
-import { typeInferenceSlides } from './slides/type-inferencing';
-import { appInitializerSlides, wtfSlides } from './slides/angular';
+import {SlideComponents} from '@w11k/ngx-present';
+import {wtfSlides} from './slides/angular';
+import {intro} from './slides/intro';
+import {jsSlides} from './slides/javascript';
+import {lintSlides} from "./slides/lint";
+import {npmSlides} from './slides/npm';
+import {outro} from './slides/outro';
+import {puzzlesSlides} from "./slides/puzzles";
+import {rxSlides} from './slides/rxjs';
+import {smoothSlides} from './slides/smooth';
+import {webAssemblySlides} from './slides/webassembly';
+import {typescriptSlides} from './slides/why-typescript';
 
 export const slides: SlideComponents = [
   ...intro,
@@ -18,10 +18,11 @@ export const slides: SlideComponents = [
   ...webAssemblySlides,
   ...npmSlides,
   ...rxSlides,
-  ...appInitializerSlides,
   ...wtfSlides,
   ...smoothSlides,
-  ...reactSlides,
-  ...typeInferenceSlides,
+  // ...reactSlides,
+  // ...typeInferenceSlides,
+  puzzlesSlides,
+  lintSlides,
   ...outro,
 ];

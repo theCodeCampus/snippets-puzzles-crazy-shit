@@ -1,19 +1,23 @@
 
-interface Input {
-  a: number;
-  b: Date;
+interface Person {
+  name: string;
+  height: number;
+  created: Date;
 }
 
-const input: Input = {
-  a: 1,
-  b: new Date()
+const input: Person = {
+  name: "Max",
+  height: 180,
+  created: new Date(),
 };
 
 const json = JSON.stringify(input);
 const output = JSON.parse(json);
 
-console.log(output.a.toFixed(1));
-console.log(output.b.substr(1));
+console.log(output.name);
+console.log(output.height);
+console.log(output.created);
+
 
 //
 //
@@ -60,4 +64,6 @@ console.log(output.b.substr(1));
 //
 //
 
-type JsonObject<T> = { [P in keyof T]: T[P] extends Date ? string : T[P] };
+type JsonObject<T> = {
+  [P in keyof T]: T[P] extends Date ? string : T[P]
+};

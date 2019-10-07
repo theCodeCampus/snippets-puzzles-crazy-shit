@@ -3,6 +3,16 @@ import { Component } from '@angular/core';
 @Component({
   template: `
     <tcc-master-regular headline="NPM">
+      <h1>NPM</h1>
+    </tcc-master-regular>
+  `
+})
+export class NpmSlide0 {
+}
+
+@Component({
+  template: `
+    <tcc-master-regular headline="NPM">
       <div>
         <h3>Wer hat schon mal ein NPM-Paket veröffentlicht?</h3>
         <tcc-code language="shell" [code]="publish"></tcc-code>
@@ -89,6 +99,7 @@ npm install foobar@latest
 export class NpmSlide5 {}
 
 export const npmSlides = [
+  NpmSlide0,
   NpmSlide3,
   NpmSlide1,
   NpmSlide2,
