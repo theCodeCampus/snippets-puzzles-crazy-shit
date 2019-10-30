@@ -36,11 +36,11 @@ export class WhyTypeScriptSlide1b {
       <div>
         <h3>Duck Typing</h3>
         <ul>
+          <li>Ententest: „Wenn ich einen Vogel sehe, der wie eine Ente läuft, wie eine Ente schwimmt<br>
+            und wie eine Ente schnattert, dann nenne ich diesen Vogel eine Ente.“
+          </li>
           <li>Wenn der Typ eines Objektes nicht durch seine Klasse beschrieben wird,<br>
             sondern durch das Vorhandensein bestimmter Methoden oder Attribute.
-          </li>
-          <li>„Wenn ich einen Vogel sehe, der wie eine Ente läuft, wie eine Ente schwimmt<br>
-            und wie eine Ente schnattert, dann nenne ich diesen Vogel eine Ente.“
           </li>
         </ul>
       </div>

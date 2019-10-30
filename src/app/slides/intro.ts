@@ -36,9 +36,9 @@ export class TitleSlide {}
   template: `
     <tcc-master-regular headline="Über mich">
       <pre markdown>
-        * Roman Roelofsen - a.k.a Alpha Geek
-        * W11K / theCodeCampus
-        * TypeScript, Angular, und alles mögliche
+        * Roman Roelofsen
+        * Alpha Geek @ W11K / theCodeCampus
+        * Web-Enthusiast, TypeScript, Angular, Java, Rust
       </pre>
     </tcc-master-regular>
     <tcc-speaker-notes *ngxPresentSpeakerNotes>

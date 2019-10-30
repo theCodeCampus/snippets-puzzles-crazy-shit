@@ -10,7 +10,7 @@ const imports = {
 
 const wasm = new WebAssembly.Instance(compiled, imports).exports;
 
-console.log(wasm.add(1, 2));
+// console.log(wasm.add(1, 2));
 // console.log(wasm.createPerson());
 
 ////////////////////////////////////////////////////////////////
@@ -20,19 +20,20 @@ console.log(wasm.add(1, 2));
 ////////////////////////////////////////////////////////////////
 
 function fib(num) {
-  if (num <= 1) return 1;
+  if (num === 0) return 0;
+  if (num === 1) return 1;
   return fib(num - 1) + fib(num - 2);
 }
 
-// let start = Date.now();
-// console.log(fib(40));
-// let dur = Date.now() - start;
-// console.log("Duration JS:", dur) ;
-//
-// start = Date.now();
-// console.log(wasm.fib(40));
-// dur = Date.now() - start;
-// console.log("Duration WA:", dur) ;
+let start = Date.now();
+console.log(fib(40));
+let dur = Date.now() - start;
+console.log("Duration JS:", dur) ;
+
+start = Date.now();
+console.log(wasm.fib(40));
+dur = Date.now() - start;
+console.log("Duration WA:", dur) ;
 
 
 

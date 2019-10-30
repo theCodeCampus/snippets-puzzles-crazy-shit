@@ -16,8 +16,8 @@ export class WebAssembly0 {
     <tcc-master-regular headline="WebAssembly">
       <div>
         <ul>
-          <li>Bytecode im Browser</li>
           <li>2. Sprache neben JavaScript</li>
+          <li>Bytecode im Browser</li>
           <li>Ziel: Performance (verlässlich)</li>
           <li>Nur Numbers</li>
           <li>Kein Garbage Collector ☠</li>

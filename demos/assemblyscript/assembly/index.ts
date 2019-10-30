@@ -2,14 +2,14 @@ export function add(a: i32, b: i32): i32 {
   return a + b;
 }
 
-// class Person {
-//   constructor(readonly name: string) {
-//   }
-// }
+class Person {
+  constructor(readonly name: string) {
+  }
+}
 
-// export function createPerson(): Person {
-//   return new Person("Max");
-// }
+export function createPerson(): Person {
+  return new Person("Max");
+}
 
 ////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////
@@ -17,7 +17,8 @@ export function add(a: i32, b: i32): i32 {
 ////////////////////////////////////////////////////////////////
 
 export function fib(num: i32): i32 {
-  if (num <= 1) return 1;
+  if (num === 0) return 0;
+  if (num === 1) return 1;
   return fib(num - 1) + fib(num - 2);
 }
 

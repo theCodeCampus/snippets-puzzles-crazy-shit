@@ -1,5 +1,5 @@
 
-interface Person {
+type Person = {
   name: string;
   height: number;
   created: Date;
@@ -12,7 +12,7 @@ const input: Person = {
 };
 
 const json = JSON.stringify(input);
-const output = JSON.parse(json);
+const output: JsonObject<Person> = JSON.parse(json);
 
 console.log(output.name);
 console.log(output.height);

@@ -77,6 +77,8 @@ export class SlideJP5 {
   code1 = `
 parseInt("3"); // ? 
 
+parseInt("3s"); // ? 
+
 parseInt("zwei"); // ?
 
 ["1", "zwei", "3"].map(parseInt); // ?
@@ -96,7 +98,7 @@ export class SlideJP6 {
 
 // ... entspricht ...
 
-["1", "2", "3"].map((value, index) => {
+["1", "zwei", "3"].map((value, index) => {
   return parseInt(value, index);
 });
 `;
